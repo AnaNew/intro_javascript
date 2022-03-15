@@ -1,11 +1,13 @@
 
 // ejercicio 2
-var numero = 30
+var numero = Number(prompt("dame un número"))
 var contador = 1
 while(contador <= numero){
-    if (contador % 5 === 0);
-    console.log(contador, " es múltiplo de 5");
-    contador ++;
+    if (contador % 5 === 0){
+        console.log(contador, " es múltiplo de 5");
+        contador ++;
+    }
+    
 }
 
 // ejercicio 3
